@@ -1,0 +1,20 @@
+{
+  "name": "vue-preset-m",
+  "version": "0.0.1",
+  "description": "vue mobile preset",
+  "main": "prompts.js",
+  "scripts": {
+    "release": "standard-version"
+  },
+  "author": "hfj",
+  "license": "ISC",
+  "devDependencies": {
+    "cz-conventional-changelog": "2.1.0",
+    "standard-version": "^5.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
